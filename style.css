@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+    font-family:Roboto;
+    background-image:linear-gradient(rgb(255, 99, 99),rgb(44, 58, 166))
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap:1em;
+    min-width:0;
+    
+}
+
+
+h1{
+    color:white;
+    
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+img:hover{
+    box-shadow:2px 21px 15px rgb(69, 195, 31);
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:left;
+}
+
+
